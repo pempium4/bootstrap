@@ -1,25 +1,19 @@
 $(function (){
     let sw = false;
     let nav = $('nav');
+    let navHeight = nav.height();
+    let menuHeight = $('menu').height();
     $('.fa-bars').click(function (){
         if(sw){
             nav.animate({
-                height: 92
+                height: navHeight
             }, 500);
             sw = false;
         }else{
             nav.animate({
-                height: 264
+                height: navHeight + menuHeight
             }, 500);
             sw = true;
         }
     });
-
-    $(window).resize(function (){
-        if(nav.width() > 768){
-            nav.animate({
-                height: 92
-            }, 500);
-        }
-    })
 });

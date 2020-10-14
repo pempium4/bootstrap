@@ -1,17 +1,18 @@
+@nav-height: 80px;
+
 @media screen and (min-width: 768px){
   nav{
-    height: 92px;
+    height: @nav-height !important;
   }
 }
 @media screen and (max-width: 767px) {
   nav{
     display: block;
-    background-color: crimson;
     menu{
-      li{
-        display: block;
+      flex-direction: column;
+      margin: 0 10px;
+      .items{
         font-size: 1.5em;
-        padding: 5px;
       }
     }
     .fa-bars{

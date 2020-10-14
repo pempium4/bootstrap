@@ -1,0 +1,44 @@
+@import "fonts.css";
+body {
+  min-width: 360px;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+nav img {
+  height: 80px;
+  margin-left: 10px;
+}
+nav menu {
+  display: flex;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+nav menu li {
+  font-family: 'Joffrey', 'Comic Sans MS', cursive;
+}
+nav .items {
+  color: lightgray;
+  cursor: pointer;
+  font-size: 3em;
+  list-style: none;
+  margin: auto 0;
+  padding: 0 5px;
+}
+nav .items:hover {
+  color: white;
+  text-shadow: 1px 1px 2px gray;
+}
+nav .fa-bars {
+  display: none;
+  position: absolute;
+  margin: 16px 10px 16px 0;
+  right: 0;
+  top: 0;
+}
