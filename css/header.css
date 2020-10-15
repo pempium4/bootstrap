@@ -1,5 +1,40 @@
+@import "fonts.css";
+header {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
 section {
+  align-items: center;
   background: url("../img/Header.jpg") center center no-repeat;
   background-size: cover;
-  height: 350px;
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+section h3 {
+  font-size: 5em;
+}
+section p {
+  text-align: center;
+}
+section a {
+  text-transform: uppercase;
+  width: 180px;
+}
+section a span {
+  display: block;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+section a:last-child {
+  text-transform: none;
+}
+section .header {
+  color: ghostwhite;
+  font-family: 'Varela', 'Comic Sans MS', cursive;
+  text-shadow: 1px 1px 2px #696969;
 }

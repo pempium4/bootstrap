@@ -17,4 +17,14 @@
   nav .fa-bars {
     display: block;
   }
+  section h3 {
+    font-size: 3em;
+  }
+  section p {
+    font-size: 0.75em;
+  }
+  section a {
+    font-size: 0.75em !important;
+    width: 150px;
+  }
 }

@@ -1,8 +1,4 @@
 @import "fonts.css";
-body {
-  min-width: 360px;
-  position: relative;
-}
 nav {
   display: flex;
   justify-content: space-between;
@@ -10,6 +6,7 @@ nav {
   overflow: hidden;
   position: fixed;
   width: 100%;
+  min-width: 360px;
 }
 nav img {
   height: 80px;
