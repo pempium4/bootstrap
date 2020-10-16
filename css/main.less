@@ -1,7 +1,13 @@
 @import "nav.css";
 @import "header.css";
 
+@color-dark: #343a40;
+@color-light: #f8f9fa;
+
 body{
-  height: 2000px;
   min-width: 360px;
+  *::selection{
+    background: @color-light;
+    color: @color-dark;
+  }
 }

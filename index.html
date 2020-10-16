@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap & BEM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media_header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/media_about.css">
+    <script src="https://kit.fontawesome.com/76a5fe0d17.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="bg-dark">
+            <img src="img/Logo.png" alt="Logo">
+            <menu>
+                <li class="items"><a href="#">Home</a></li>
+                <li class="items"><a href="#">Guide</a></li>
+                <li class="items"><a href="#about">About</a></li>
+                <li class="items"><a href="">Help</a></li>
+            </menu>
+            <i class="items fas fa-bars"></i>
+        </nav>
+        <section>
+            <h3 class="header">Among Us</h3>
+            <p class="header">Join your crewmates in a multiplayer game of teamwork and betrayal!</p>
+            <div>
+                <a class="btn btn-light" href="#">
+                    <i class="fab fa-google-play"></i>
+                    get it on <span>Google Play</span></a>
+                <a class="btn btn-dark" href="#">
+                    <i class="fab fa-apple"></i>
+                    Download on the <span>App Store</span></a>
+            </div>
+        </section>
+    </header>
+    <div id="about">
+        <section>
+            <h4>About Us</h4>
+            <p>Meet our team!</p>
+        </section>
+        <section class="row">
+            <div class="bg-dark">
+                <img src="img/forestPortrait.png" alt="">
+                <h5>Forest W.</h5>
+                <hr>
+                <p>Hello, I'm your friendly neighborhood recluse/programmer! I also handle the business end of things at InnerSloth.</p>
+                <p>When I'm not programming (basically always), I really enjoy bouldering.</p>
+                <p>I don't post much on the internet, but I'm always open to questions about what we're doing and how it's done.</p>
+                <hr>
+                <div>
+                    <a class="text-light" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="text-light" href="#"><i class="fab fa-github"></i></a>
+                    <a class="text-light" href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+            <div class="bg-dark">
+                <img src="img/marcusPortrait.png" alt="">
+                <h5>Marcus B.</h5>
+                <hr>
+                <p>Hello! I'm an artist, animator and game designer here at InnerSloth.</p>
+                <p>You might know me as Puffballs United, the creator of Henry Stickmin Series! I worked on Among Us and recently finished the Henry Stickmin Collection. I also worked on Dig2China, and misc cancelled games ;)</p>
+                <p>I've been wanting to make games since I was 8. Technology grew to the point that it was actually possible for me and not just a dream. I play a lot of games on the side.</p>
+                <hr>
+                <div>
+                    <a class="text-light" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="text-light" href="#"><i class="fab fa-twitch"></i></a>
+                    <a class="text-light" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="bg-dark">
+                <img src="img/amyPortrait.png" alt="">
+                <h5>Amy L.</h5>
+                <hr>
+                <p>Heyo there! I'm the other artist here at InnerSloth. Also general task-doer for whatever else needs done!</p>
+                <p>I worked on Among Us, and am currently working on developing merchandise and future Innersloth games!</p>
+                <p>In my free time I enjoy photography, more drawing, taking naps, and hanging out with friends.</p>
+                <hr>
+                <div>
+                    <a class="text-light" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="text-light" href="#"><i class="fab fa-reddit"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@import "fonts.css";
+@text-shadow: 1px 1px 1px lightgrey;
+@color-dark: #343a40;
+@color-light: #f8f9fa;
+@font-family: 'Varela', 'Comic Sans MS', cursive;
+@margin: .5rem;
+
+#about{
+  display: inline-block;
+  section:first-child{
+    font-family: @font-family;
+    font-weight: bold;
+    margin: 40px 0;
+    text-align: center;
+    h4{
+      font-size: 3em;
+    }
+    p{
+      font-size: 1.5em;
+    }
+  }
+  .row{
+    margin: @margin 0;
+    > div{
+      border-radius: @margin;
+      color: @color-light;
+      padding: 1em;
+      margin: @margin;
+      max-width: calc(~'100%/3 - 1em');
+      text-align: center;
+      img{
+        margin-bottom: @margin;
+      }
+      h5{
+        font-size: 2em;
+      }
+      hr{
+        border-color: @color-light;
+      }
+      p{
+        text-align: justify;
+      }
+      a{
+        font-size: 2em;
+      }
+    }
+  }
+}

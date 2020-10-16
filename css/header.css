@@ -4,7 +4,7 @@ header {
   position: relative;
   width: 100%;
 }
-section {
+header section {
   align-items: center;
   background: url("../img/Header.jpg") center center no-repeat;
   background-size: cover;
@@ -15,25 +15,25 @@ section {
   margin-top: 80px;
   width: 100%;
 }
-section h3 {
+header section h3 {
   font-size: 5em;
 }
-section p {
+header section p {
   text-align: center;
 }
-section a {
+header section a {
   text-transform: uppercase;
   width: 180px;
 }
-section a span {
+header section a span {
   display: block;
   font-weight: bold;
   text-transform: capitalize;
 }
-section a:last-child {
+header section a:last-child {
   text-transform: none;
 }
-section .header {
+header section .header {
   color: ghostwhite;
   font-family: 'Varela', 'Comic Sans MS', cursive;
   text-shadow: 1px 1px 2px #696969;

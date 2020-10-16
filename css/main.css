@@ -1,6 +1,9 @@
 @import "nav.css";
 @import "header.css";
 body {
-  height: 2000px;
   min-width: 360px;
+}
+body *::selection {
+  background: #f8f9fa;
+  color: #343a40;
 }
