@@ -1,9 +1,23 @@
 @import "nav.css";
 @import "header.css";
+@import "guide.css";
+@import "about.css";
 body {
   min-width: 360px;
 }
 body *::selection {
   background: #f8f9fa;
   color: #343a40;
+}
+body .article {
+  font-family: 'Varela', 'Comic Sans MS', cursive;
+  font-weight: bold;
+  margin: 40px 20px;
+  text-align: center;
+}
+body .article h4 {
+  font-size: 3em;
+}
+body .article p {
+  font-size: 1.5em;
 }

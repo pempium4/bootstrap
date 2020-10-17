@@ -1,13 +1,29 @@
 @import "nav.css";
 @import "header.css";
+@import "guide.css";
+@import "about.css";
 
 @color-dark: #343a40;
 @color-light: #f8f9fa;
+
+@font-family: 'Varela', 'Comic Sans MS', cursive;
 
 body{
   min-width: 360px;
   *::selection{
     background: @color-light;
     color: @color-dark;
+  }
+  .article{
+    font-family: @font-family;
+    font-weight: bold;
+    margin: 40px 20px;
+    text-align: center;
+    h4{
+      font-size: 3em;
+    }
+    p{
+      font-size: 1.5em;
+    }
   }
 }

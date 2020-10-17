@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap & BEM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media_main.css">
     <link rel="stylesheet" href="css/media_header.css">
-    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/media_about.css">
     <script src="https://kit.fontawesome.com/76a5fe0d17.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Bootstrap & BEM</title>
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
             <img src="img/Logo.png" alt="Logo">
             <menu>
                 <li class="items"><a href="#">Home</a></li>
-                <li class="items"><a href="#">Guide</a></li>
+                <li class="items"><a href="#guide">Guide</a></li>
                 <li class="items"><a href="#about">About</a></li>
                 <li class="items"><a href="">Help</a></li>
             </menu>
@@ -37,13 +38,47 @@
             </div>
         </section>
     </header>
+    <div id="guide">
+        <section class="article">
+            <h4>How to Play</h4>
+            <p>Join your crewmates in a multiplayer game of teamwork and betrayal!</p>
+        </section>
+        <section class="bg-dark">
+            <!--<div class="gallery">
+                <img src="img/gallery_1.jpg" alt="">
+                <img src="img/gallery_2.jpg" alt="">
+                <img src="img/gallery_3.jpg" alt="">
+                <img src="img/gallery_4.jpg" alt="">
+                <img src="img/gallery_5.jpg" alt="">
+                <img src="img/gallery_6.jpg" alt="">
+                <img src="img/gallery_7.jpg" alt="">
+                <img src="img/gallery_8.jpg" alt="">
+                <img src="img/gallery_9.jpg" alt="">
+            </div>-->
+            <div>
+                <hr>
+                <img id="white" src="img/white.png" alt="">
+                <p>Play online or over local wifi with 4-10 players as you attempt to hold your spaceship together and return back to civilization. But beware...as there may be an alien impostor aboard!</p>
+                <hr>
+                <img id="black" src="img/black.png" alt="">
+                <p>One crewmate has been replaced by a parasitic shapeshifter. Their goal is to eliminate the rest of the crew before the ship reaches home. The Impostor will sabotage the ship, sneak through vents, deceive, and frame others to remain anonymous and kill off the crew.</p>
+                <hr>
+                <p>While everyone is fixing up the ship, no one can talk to maintain anonymity. Once a body is reported, the surviving crew will openly debate who they think The Impostor is. The Impostor's goal is to pretend that they are a member of the crew. If The Impostor is not voted off, everyone goes back to maintaining the ship until another body is found. If The Impostor is voted off, the crew wins!</p>
+                <hr>
+            </div>
+            <iframe src="https://store.steampowered.com/widget/945360/" frameborder="0"></iframe>
+        </section>
+    </div>
+    <!--<div id="img">
+        <img src="" alt="">
+    </div>-->
     <div id="about">
-        <section>
+        <section class="article">
             <h4>About Us</h4>
             <p>Meet our team!</p>
         </section>
         <section class="row">
-            <div class="bg-dark">
+            <div class="bg-dark col-12 col-md-4">
                 <img src="img/forestPortrait.png" alt="">
                 <h5>Forest W.</h5>
                 <hr>
@@ -57,7 +92,7 @@
                     <a class="text-light" href="#"><i class="fab fa-google-plus-g"></i></a>
                 </div>
             </div>
-            <div class="bg-dark">
+            <div class="bg-dark col-12 col-md-4">
                 <img src="img/marcusPortrait.png" alt="">
                 <h5>Marcus B.</h5>
                 <hr>
@@ -71,7 +106,7 @@
                     <a class="text-light" href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
-            <div class="bg-dark">
+            <div class="bg-dark col-12 col-md-4">
                 <img src="img/amyPortrait.png" alt="">
                 <h5>Amy L.</h5>
                 <hr>

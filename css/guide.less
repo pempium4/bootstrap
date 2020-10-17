@@ -1,0 +1,50 @@
+@import "fonts.css";
+@color-dark: #343a40;
+@color-light: #f8f9fa;
+@margin: .5rem;
+
+#guide{
+  display: inline-block;
+  section:last-child{
+    border-radius: @margin;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .5);
+    color: @color-light;
+    padding: 1em;
+    margin: @margin;
+    max-width: calc(~'100% - 1em');
+    text-align: justify;
+    /*.gallery img{
+      border-radius: @margin;
+      cursor: pointer;
+      margin: @margin 0;
+      max-height: 120px;
+      transition: all .5s;
+      &:hover{
+        filter: opacity(50%);
+      }
+    }
+    p{
+      text-align: justify;
+    }*/
+    div{
+      img{
+        background: @color-dark;
+        max-height: 120px;
+      }
+      #white{
+        float: left;
+      }
+      #black{
+        float: right;
+      }
+      hr{
+        border-color: @color-light;
+      }
+    }
+    iframe{
+      border-radius: @margin;
+      height: 188px;
+      width: 100%;
+    }
+  }
+}
