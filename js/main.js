@@ -22,4 +22,5 @@ $(function (){
             scrollTop: $(target).offset().top - navHeight
         }, 500);
     });
+
 });

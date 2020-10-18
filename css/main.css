@@ -1,9 +1,11 @@
 @import "nav.css";
 @import "header.css";
 @import "guide.css";
+@import "objectives.css";
+@import "media.css";
 @import "about.css";
 body {
-  min-width: 360px;
+  min-width: 380px;
 }
 body *::selection {
   background: #f8f9fa;
@@ -20,4 +22,33 @@ body .article h4 {
 }
 body .article p {
   font-size: 1.5em;
+}
+body .row {
+  margin: 0.5rem 0;
+}
+body .card-content {
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  color: #f8f9fa;
+  padding: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+body .card-content a {
+  font-size: 2em;
+}
+body .card-content img {
+  margin-bottom: 0.5rem;
+}
+body .card-content h5 {
+  font-size: 2em;
+}
+body .card-content h6 {
+  font-size: 1.5em;
+}
+body .card-content hr {
+  border-color: #f8f9fa;
+}
+body .card-content p {
+  text-align: justify;
 }

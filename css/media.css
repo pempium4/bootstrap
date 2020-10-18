@@ -1,0 +1,10 @@
+@import "fonts.css";
+#media img {
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 177px;
+  transition: .5s;
+}
+#media img:hover {
+  filter: opacity(50%);
+}

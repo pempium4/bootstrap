@@ -1,0 +1,14 @@
+@import "fonts.css";
+#objectives .card-content {
+  max-width: calc(100%/2 - 1em);
+}
+#objectives .card-content img {
+  max-width: 100%;
+}
+#objectives .card-content li {
+  text-align: justify;
+}
+#objectives .card-content ul {
+  list-style: square;
+  padding-left: 20px;
+}

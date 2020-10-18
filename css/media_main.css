@@ -5,4 +5,8 @@
   body .article p {
     font-size: 1.25em;
   }
+  body #objectives .card-content,
+  body #about .card-content {
+    max-width: calc(100% - 1em);
+  }
 }

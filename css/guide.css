@@ -2,14 +2,8 @@
 #guide {
   display: inline-block;
 }
-#guide section:last-child {
-  border-radius: 0.5rem;
-  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
-  color: #f8f9fa;
-  padding: 1em;
-  margin: 0.5rem;
+#guide .card-content {
   max-width: calc(100% - 1em);
-  text-align: justify;
   /*.gallery img{
       border-radius: @margin;
       cursor: pointer;
@@ -24,20 +18,20 @@
       text-align: justify;
     }*/
 }
-#guide section:last-child div img {
+#guide .card-content div img {
   background: #343a40;
   max-height: 120px;
 }
-#guide section:last-child div #white {
+#guide .card-content div #white {
   float: left;
 }
-#guide section:last-child div #black {
+#guide .card-content div #black {
   float: right;
 }
-#guide section:last-child div hr {
+#guide .card-content div hr {
   border-color: #f8f9fa;
 }
-#guide section:last-child iframe {
+#guide .card-content iframe {
   border-radius: 0.5rem;
   height: 188px;
   width: 100%;

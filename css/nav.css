@@ -8,6 +8,7 @@ nav {
   position: fixed;
   width: 100%;
   min-width: 360px;
+  z-index: 99;
 }
 nav img {
   height: 80px;
