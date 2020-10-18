@@ -9,4 +9,13 @@
   body #about .card-content {
     max-width: calc(100% - 1em);
   }
+  body #media img {
+    display: none;
+  }
+  body #media #slick {
+    margin-bottom: 32px;
+  }
+  body #media #slick img {
+    max-height: 480px;
+  }
 }
