@@ -1,4 +1,5 @@
 $(function (){
+    /*========= navbar ===========*/
     let sw = false;
     let nav = $('nav');
     let navHeight = nav.height();
@@ -16,12 +17,18 @@ $(function (){
             sw = true;
         }
     });
+    /*========= navbar ===========*/
+
+    /*========= anchor ===========*/
     $('a[href^="#"]').click(function(){
         let target = $(this).attr('href');
         $('html, body').animate({
             scrollTop: $(target).offset().top - navHeight
         }, 500);
     });
+    /*========= anchor ===========*/
+
+    /*========= gallery ===========*/
     $('#slick img').click(function (){
         let newAttr = $(this).attr('src');
         let currImg = $('#show-slide');
@@ -29,6 +36,9 @@ $(function (){
             currImg.hide(1).attr('src', newAttr).fadeIn(500);
         }
     });
+    /*========= gallery ===========*/
+
+    /*========= slick ===========*/
     $('#slick').slick({
         arrows: false,
         autoplay: false,
@@ -50,4 +60,5 @@ $(function (){
             }
         ]
     });
+    /*========= slick ===========*/
 });

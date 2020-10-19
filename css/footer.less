@@ -1,0 +1,36 @@
+@import "fonts.css";
+@color-dark: #343a40;
+@color-light: #f8f9fa;
+@margin: .5rem;
+
+footer{
+  width: 100%;
+  .article{
+    color: @color-light;
+    font-weight: normal!important;
+    margin: 40px 20px @margin!important;
+    h5{
+      font-size: 2.5em;
+      padding-top: 20px;
+    }
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    margin: 0 @margin;
+    input{
+      max-width: 400px;
+    }
+  }
+  section:last-child{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    a{
+      text-decoration: none;
+    }
+    p{
+      margin: 0 @margin;
+      padding: @margin 0;
+    }
+  }
+}

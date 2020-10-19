@@ -4,12 +4,17 @@
 @import "objectives.css";
 @import "media.css";
 @import "about.css";
+@import "footer.css";
 body {
   min-width: 360px;
 }
 body *::selection {
   background: #f8f9fa;
   color: #343a40;
+}
+body > div {
+  margin: auto;
+  max-width: 1280px;
 }
 body .article {
   font-family: 'Varela', 'Comic Sans MS', cursive;
@@ -34,9 +39,6 @@ body .card-content {
   margin: 0.5rem;
   text-align: center;
 }
-body .card-content a {
-  font-size: 2em;
-}
 body .card-content img {
   margin-bottom: 0.5rem;
 }
@@ -51,4 +53,13 @@ body .card-content hr {
 }
 body .card-content p {
   text-align: justify;
+}
+body .links {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+body .links a {
+  font-size: 2em;
+  padding: 0 4px;
+  transition: .3s;
 }

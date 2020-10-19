@@ -1,22 +1,6 @@
 @import "fonts.css";
-#guide {
-  display: inline-block;
-}
 #guide .card-content {
   max-width: calc(100% - 1em);
-  /*.gallery img{
-      border-radius: @margin;
-      cursor: pointer;
-      margin: @margin 0;
-      max-height: 120px;
-      transition: all .5s;
-      &:hover{
-        filter: opacity(50%);
-      }
-    }
-    p{
-      text-align: justify;
-    }*/
 }
 #guide .card-content div img {
   background: #343a40;

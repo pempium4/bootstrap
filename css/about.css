@@ -1,7 +1,4 @@
 @import "fonts.css";
-#about {
-  display: inline-block;
-}
 #about .card-content {
   max-width: calc(100%/3 - 1em);
 }

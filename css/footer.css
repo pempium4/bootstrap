@@ -1,0 +1,32 @@
+@import "fonts.css";
+footer {
+  width: 100%;
+}
+footer .article {
+  color: #f8f9fa;
+  font-weight: normal!important;
+  margin: 40px 20px 0.5rem !important;
+}
+footer .article h5 {
+  font-size: 2.5em;
+  padding-top: 20px;
+}
+footer form {
+  display: flex;
+  justify-content: center;
+  margin: 0 0.5rem;
+}
+footer form input {
+  max-width: 400px;
+}
+footer section:last-child {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+footer section:last-child a {
+  text-decoration: none;
+}
+footer section:last-child p {
+  margin: 0 0.5rem;
+  padding: 0.5rem 0;
+}
