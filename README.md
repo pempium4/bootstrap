@@ -1,2 +1,3 @@
 # bootstrap
-# nothing interesting
+
+Jira live connection
